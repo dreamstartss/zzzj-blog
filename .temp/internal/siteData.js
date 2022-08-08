@@ -8,6 +8,13 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "frontmatter": {},
+      "regularPath": "/css/BFC.html",
+      "relativePath": "css/BFC.md",
+      "key": "v-ae01ab86",
+      "path": "/css/BFC.html"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true
@@ -16,60 +23,184 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-32946c91",
       "path": "/",
-      "lastUpdated": "5/30/2022, 9:20:56 PM",
-      "lastUpdatedTimestamp": 1653916856000
+      "lastUpdated": "6/6/2022, 9:56:19 PM",
+      "lastUpdatedTimestamp": 1654523779000
     },
     {
-      "title": "css",
+      "title": "CSS",
+      "frontmatter": {},
+      "regularPath": "/css/",
+      "relativePath": "css/README.md",
+      "key": "v-0b836d16",
+      "path": "/css/"
+    },
+    {
       "frontmatter": {},
       "regularPath": "/css/css.html",
       "relativePath": "css/css.md",
       "key": "v-48481686",
       "path": "/css/css.html",
+      "lastUpdated": "6/6/2022, 9:56:19 PM",
+      "lastUpdatedTimestamp": 1654523779000
+    },
+    {
+      "title": "HTTP 知识",
+      "frontmatter": {},
+      "regularPath": "/http/",
+      "relativePath": "http/README.md",
+      "key": "v-5a973198",
+      "path": "/http/"
+    },
+    {
+      "title": "JavaScript",
+      "frontmatter": {},
+      "regularPath": "/js/",
+      "relativePath": "js/README.md",
+      "key": "v-0eb31b14",
+      "path": "/js/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/http/http&https.html",
+      "relativePath": "http/http&https.md",
+      "key": "v-a0ad29d2",
+      "path": "/http/http&https.html"
+    },
+    {
+      "title": "JS 检测方法",
+      "frontmatter": {
+        "title": "JS 检测方法"
+      },
+      "regularPath": "/js/DetectionMethod.html",
+      "relativePath": "js/DetectionMethod.md",
+      "key": "v-25685343",
+      "path": "/js/DetectionMethod.html",
       "headers": [
         {
-          "level": 2,
-          "title": "css",
-          "slug": "css"
+          "level": 3,
+          "title": "JS 检测方法",
+          "slug": "js-检测方法"
         }
       ]
+    },
+    {
+      "title": "var、let、cosnt的区别",
+      "frontmatter": {
+        "title": "var、let、cosnt的区别",
+        "date": "2022-08-08 22:01"
+      },
+      "regularPath": "/js/var&let&const.html",
+      "relativePath": "js/var&let&const.md",
+      "key": "v-95f36ec6",
+      "path": "/js/var&let&const.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "var、let、const 的区别",
+          "slug": "var、let、const-的区别"
+        }
+      ]
+    },
+    {
+      "title": "typeScript",
+      "frontmatter": {},
+      "regularPath": "/ts/",
+      "relativePath": "ts/README.md",
+      "key": "v-43342958",
+      "path": "/ts/"
     },
     {
       "frontmatter": {},
       "regularPath": "/ts/TS.html",
       "relativePath": "ts/TS.md",
       "key": "v-34788e12",
-      "path": "/ts/TS.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/js/JS.html",
-      "relativePath": "js/JS.md",
-      "key": "v-718c80f7",
-      "path": "/js/JS.html"
+      "path": "/ts/TS.html",
+      "lastUpdated": "6/6/2022, 9:56:19 PM",
+      "lastUpdatedTimestamp": 1654523779000
     }
   ],
   "themeConfig": {
+    "lastUpdated": "上次更新",
     "logo": "/assets/img/logo.png",
     "nav": [
       {
-        "text": "Home",
+        "text": "首页",
         "link": "/"
       },
       {
         "text": "JS",
-        "link": "/js/JS"
+        "link": "/js/"
       },
       {
         "text": "CSS",
-        "link": "/css/css"
+        "link": "/css/"
       },
       {
         "text": "TS",
-        "link": "/ts/TS"
+        "link": "/ts/"
+      },
+      {
+        "text": "HTTP",
+        "link": "/http/"
       }
     ],
-    "sidebar": "auto",
-    "lastUpdated": "Last Updated"
+    "sidebar": {
+      "/css/": [
+        {
+          "title": "CSS",
+          "path": "/css/",
+          "children": [
+            {
+              "title": "css",
+              "path": "css"
+            },
+            {
+              "title": "BFC",
+              "path": "BFC"
+            }
+          ]
+        }
+      ],
+      "/js/": [
+        {
+          "title": "JavaScript",
+          "path": "/js/",
+          "children": [
+            {
+              "title": "JS 检测方法",
+              "path": "DetectionMethod"
+            },
+            {
+              "title": "var let const的区别",
+              "path": "var&let&const"
+            }
+          ]
+        }
+      ],
+      "/ts/": [
+        {
+          "title": "typeScript",
+          "path": "/ts/",
+          "children": [
+            {
+              "title": "ts",
+              "path": "TS"
+            }
+          ]
+        }
+      ],
+      "/http/": [
+        {
+          "title": "HTTP",
+          "path": "/http/",
+          "children": [
+            {
+              "title": "http",
+              "path": "http&https"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
