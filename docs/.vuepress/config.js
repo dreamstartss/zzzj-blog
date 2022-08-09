@@ -42,6 +42,14 @@ module.exports = {
               title: 'var let const的区别',
               path: 'var&let&const',
             },
+            {
+              title: 'Promise',
+              path: 'Promise',
+            },
+            {
+              title: 'JS 异步发展历程',
+              path: 'asyncDevelop',
+            },
           ],
         },
       ],

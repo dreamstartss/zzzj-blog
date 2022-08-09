@@ -8,13 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "frontmatter": {},
-      "regularPath": "/css/BFC.html",
-      "relativePath": "css/BFC.md",
-      "key": "v-ae01ab86",
-      "path": "/css/BFC.html"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true
@@ -27,21 +20,32 @@ export const siteData = {
       "lastUpdatedTimestamp": 1654523779000
     },
     {
+      "frontmatter": {},
+      "regularPath": "/css/BFC.html",
+      "relativePath": "css/BFC.md",
+      "key": "v-ae01ab86",
+      "path": "/css/BFC.html",
+      "lastUpdated": "8/8/2022, 10:11:39 PM",
+      "lastUpdatedTimestamp": 1659967899000
+    },
+    {
       "title": "CSS",
       "frontmatter": {},
       "regularPath": "/css/",
       "relativePath": "css/README.md",
       "key": "v-0b836d16",
-      "path": "/css/"
+      "path": "/css/",
+      "lastUpdated": "8/8/2022, 10:11:39 PM",
+      "lastUpdatedTimestamp": 1659967899000
     },
     {
       "frontmatter": {},
-      "regularPath": "/css/css.html",
-      "relativePath": "css/css.md",
-      "key": "v-48481686",
-      "path": "/css/css.html",
-      "lastUpdated": "6/6/2022, 9:56:19 PM",
-      "lastUpdatedTimestamp": 1654523779000
+      "regularPath": "/http/http&https.html",
+      "relativePath": "http/http&https.md",
+      "key": "v-a0ad29d2",
+      "path": "/http/http&https.html",
+      "lastUpdated": "8/8/2022, 10:11:39 PM",
+      "lastUpdatedTimestamp": 1659967899000
     },
     {
       "title": "HTTP 知识",
@@ -49,7 +53,33 @@ export const siteData = {
       "regularPath": "/http/",
       "relativePath": "http/README.md",
       "key": "v-5a973198",
-      "path": "/http/"
+      "path": "/http/",
+      "lastUpdated": "8/8/2022, 10:11:39 PM",
+      "lastUpdatedTimestamp": 1659967899000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/css/css.html",
+      "relativePath": "css/css.md",
+      "key": "v-48481686",
+      "path": "/css/css.html",
+      "lastUpdated": "8/8/2022, 10:11:39 PM",
+      "lastUpdatedTimestamp": 1659967899000
+    },
+    {
+      "title": "Promise",
+      "frontmatter": {},
+      "regularPath": "/js/Promise.html",
+      "relativePath": "js/Promise.md",
+      "key": "v-49dc4599",
+      "path": "/js/Promise.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "Promise",
+          "slug": "promise"
+        }
+      ]
     },
     {
       "title": "JavaScript",
@@ -57,14 +87,9 @@ export const siteData = {
       "regularPath": "/js/",
       "relativePath": "js/README.md",
       "key": "v-0eb31b14",
-      "path": "/js/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/http/http&https.html",
-      "relativePath": "http/http&https.md",
-      "key": "v-a0ad29d2",
-      "path": "/http/http&https.html"
+      "path": "/js/",
+      "lastUpdated": "8/8/2022, 10:11:39 PM",
+      "lastUpdatedTimestamp": 1659967899000
     },
     {
       "title": "JS 检测方法",
@@ -80,6 +105,25 @@ export const siteData = {
           "level": 3,
           "title": "JS 检测方法",
           "slug": "js-检测方法"
+        }
+      ],
+      "lastUpdated": "8/8/2022, 10:11:39 PM",
+      "lastUpdatedTimestamp": 1659967899000
+    },
+    {
+      "title": "JS 异步发展历程",
+      "frontmatter": {
+        "title": "JS 异步发展历程"
+      },
+      "regularPath": "/js/asyncDevelop.html",
+      "relativePath": "js/asyncDevelop.md",
+      "key": "v-785496b7",
+      "path": "/js/asyncDevelop.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "JS 异步发展历程",
+          "slug": "js-异步发展历程"
         }
       ]
     },
@@ -99,15 +143,9 @@ export const siteData = {
           "title": "var、let、const 的区别",
           "slug": "var、let、const-的区别"
         }
-      ]
-    },
-    {
-      "title": "typeScript",
-      "frontmatter": {},
-      "regularPath": "/ts/",
-      "relativePath": "ts/README.md",
-      "key": "v-43342958",
-      "path": "/ts/"
+      ],
+      "lastUpdated": "8/8/2022, 10:11:39 PM",
+      "lastUpdatedTimestamp": 1659967899000
     },
     {
       "frontmatter": {},
@@ -117,6 +155,16 @@ export const siteData = {
       "path": "/ts/TS.html",
       "lastUpdated": "6/6/2022, 9:56:19 PM",
       "lastUpdatedTimestamp": 1654523779000
+    },
+    {
+      "title": "typeScript",
+      "frontmatter": {},
+      "regularPath": "/ts/",
+      "relativePath": "ts/README.md",
+      "key": "v-43342958",
+      "path": "/ts/",
+      "lastUpdated": "8/8/2022, 10:11:39 PM",
+      "lastUpdatedTimestamp": 1659967899000
     }
   ],
   "themeConfig": {
@@ -173,6 +221,14 @@ export const siteData = {
             {
               "title": "var let const的区别",
               "path": "var&let&const"
+            },
+            {
+              "title": "Promise",
+              "path": "Promise"
+            },
+            {
+              "title": "JS 异步发展历程",
+              "path": "asyncDevelop"
             }
           ]
         }
